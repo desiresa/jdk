@@ -4,13 +4,13 @@
 
 ## Índice
 
-- 1. [Instalación desde repositorios](#instalación desde repositorios)
+1. [Instalación desde repositorios](#instalacion)
 
-- 2. [Instalar una versión específica de Java](#instalar una versión específica de Java)
+2. [Instalar una versión específica de Java](#instalar)
 
-- 3. [Configurar las variables de entorno](#configurar las variables de entorno)
+3. [Configurar las variables de entorno](#configurar)
 
-## 1. Instalación desde repositorios <a name="instalación desde repositorios"></a>
+## 1. Instalación desde repositorios <a name="instalacion"></a>
 
 
 Actualizamos desde el terminal con:
@@ -32,7 +32,7 @@ Comprobamos la versión que tenemos actualmente en nuestro SO con:
 
 Y como se ve en la captura se nos instalo la última versión disponible de OpenJDK
 
-## 2. Instalar una versión específica de Java <a name="instalar una versión específica de Java"></a>
+## 2. Instalar una versión específica de Java <a name="instalar"></a>
 
 Para instalar las versiones de Java OpenJDK utilizaremos los siguientes comandos:
 - `sudo apt install openjdk-11-jdk`
@@ -59,7 +59,7 @@ La versión que usaremos este año será la 8. Ahora volveremos a comprobar que 
 
 Si no nos aparece como última versión la 8, deberemos configurar las variables de entorno.
 
-## 3. Configurar las variables de entorno.<a name="configurar las variables de entorno"></a>
+## 3. Configurar las variables de entorno.<a name="configurar"></a>
 
 Deberemos configurar estas variables para que Linux sepa donde se encuentra ubicado el OpenJDK para ejecutarlo, y que versión usar de forma predeterminada.
 Primero listamos klas versiones que tenfamos instaladas de OpenJDK, con el siguiente comando:
